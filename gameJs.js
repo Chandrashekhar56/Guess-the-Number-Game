@@ -1,6 +1,5 @@
 
-        //let randomNumber = Math.floor(Math.random() * 100) + 1;
-        let randomNumber =10;
+        let randomNumber = Math.floor(Math.random() * 100) + 1;
         const guesses = document.getElementById("guesses");
         const lastResult = document.getElementById("lastResult");
         const lowOrHi = document.getElementById("lowOrHi");
@@ -83,7 +82,5 @@
             lowOrHi.textContent = "";
             lastResult.textContent = "";
             lastResult.style.backgroundColor = "white";
-            //randomNumber = Math.floor(Math.random() * 100) + 1;
-            let randomNumber =10;
-
+            randomNumber = Math.floor(Math.random() * 100) + 1;
         }
