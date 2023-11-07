@@ -1,0 +1,60 @@
+<style>
+        .confetti-container {
+                width: 100%;
+                height: 100%;
+                padding-top: 1px;
+        }
+
+        .confetti {
+            width: 10px;
+            height: 15px;
+            position: fixed;
+            border-radius: 5% 40% 5% 40% ;
+            animation: confetti-fall 10s linear;
+        }
+
+        @keyframes confetti-fall {
+            0% {
+                transform: translateY(-100vh);
+                opacity:1;
+            }
+            100% {
+                transform: translateY(100vh);
+                opacity: 0.3;
+            }
+        }
+
+        .container {
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: fit-content;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        .form-control {
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            border: 2px solid #007BFF;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border: 2px solid #0056b3;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
